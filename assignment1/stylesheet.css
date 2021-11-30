@@ -1,0 +1,58 @@
+.container {
+    width: 800px;
+    height: 120px;
+    margin: 50px;
+}
+
+.text-box {
+    width: 60%;
+    height: 100%;
+    float: left;
+}
+
+.profile {
+    height: 30%;
+    margin-bottom: 10px;
+}
+
+.profile-photo {
+    width: 30px;
+    border-radius: 15px;
+    float: left;
+}
+
+.profile.text {
+    float: left;
+}
+
+.nickname {
+    font-size: 12px;
+}
+
+.written-time {
+    font-size: 3px;
+    color: grey;
+}
+
+.content {
+    clear: both;
+    height: 60%;
+}
+
+.title-text {
+    height: 30%;
+    font-weight:bold;
+    margin-bottom: 10px;
+}
+
+.content-text {
+    height: 70%;
+    font-size: 3px;
+    color: grey;
+}
+
+.photo-box {
+    height: 100%;
+    width: "30%";
+    float: left;
+}
