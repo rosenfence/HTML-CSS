@@ -1,3 +1,25 @@
+.navbar li{
+    display: inline-block;
+    width: 120px;
+    text-align: center;
+    background: #eee;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.navbar a{
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.navbar a:link {
+    color: #f5b5d6;
+}
+
+.navbar a:visited {
+    color: pink;
+}
+
 .container {
     width: 800px;
     height: 120px;
