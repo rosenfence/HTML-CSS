@@ -1,0 +1,84 @@
+table {
+    color: #b2ccd6;
+    border-collapse: collapse;
+    border-radius: 10px;
+    border-style: hidden;
+    box-shadow: 0 0 0 1px #b2ccd6;
+    background-color: white;
+    width: 100%;
+    max-width: 700px;
+}
+
+td, th {
+    border-top: 1px solid #b2ccd6;
+    border-bottom: 1px solid #b2ccd6;
+    
+}
+
+.item-image{
+    padding-left: 10px
+}
+
+.company-logo {
+    width: 60px;
+}
+
+.item-name {
+    font-weight: bold;
+}
+
+.amount-body {
+    text-align: right;
+    padding-right: 15px;
+}
+
+.non-item-head {
+    width: 100px;
+}
+
+.price-body {
+    text-align: center;
+}
+
+.total-body {
+    text-align: center;
+    color: #133761;
+    font-weight: bold;
+}
+
+.total-price {
+    text-align: right;
+    height: 60px;
+    padding-right: 30px;
+    color: #133761;
+    font-weight: bold;
+}
+
+.payment-button{
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: #133761;
+}
+
+.cart-return:visited {
+    color: #133761;
+    font-weight: bold;
+}
+
+.cart-return:link{
+    color: #133761;
+    font-weight: bold;
+}
+
+.under-table {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 700px;
+    height: 60px;
+    vertical-align: middle;
+    align-items: center;
+    margin-top: 15px;
+}
