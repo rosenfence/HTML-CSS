@@ -1,0 +1,117 @@
+div {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+}
+
+.main-background {
+    width: 100%;
+    height: 500px;
+    padding: 1px;
+    background-image: url(../img/shoes.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    position: relative;
+}
+
+.main-title {
+    color: white;
+    font-size: 40px;
+    margin-top: 150px;
+    text-align: center;
+}
+
+.main-tags {
+    color: white;
+    text-align: center;
+}
+
+.main-button {
+    padding: 5px;
+    display: inline-block;
+    width: 120px;
+    text-align: center;
+    background-color: #eee;
+    border-radius: 10px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 150px;
+}
+
+.main-button a{
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.main-button a:link{
+    color: black
+}
+
+.main-button a:visited{
+    color: black
+}
+
+.sub-box {
+    background-color: rgb(216, 216, 216);
+    width: 80%;
+    max-width: 600px;
+    text-align: center;
+    padding: 15px;
+    position: relative;
+    top: -40px;
+    margin: auto;
+}
+
+.form-box {
+    width: 60%;
+    position: relative;
+    margin: auto;
+    background-color: white;
+    padding: 30px;
+    margin-top: 30px;
+}
+
+.form-text {
+    margin-bottom: 6px;
+}
+
+.form-small-box {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 5px;
+    border-radius: 3px;
+}
+
+.form-namebox {
+    width: 48%;
+    display:inline-block;
+}
+
+.form-message-box {
+    box-sizing: border-box;
+    padding: 5px;
+    width: 100%;
+    height: 150px;
+    border-radius: 3px;
+    margin-bottom: 20px;
+}
+
+.form-submitbox {
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-button {
+    width: 30%;
+    border-radius: 5px;
+    background-color: #ffbf35;
+    color: white;
+    padding: 5px;
+    border: 0;
+}
