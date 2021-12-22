@@ -1,9 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300&display=swap');
+
 div {
     box-sizing: border-box;
 }
 
 body {
     margin: 0px;
+    font-family: 'Noto Sans KR', sans-serif;
+    transform: rotate(0.03deg);
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: center;
+    background-color: #ff7576;
+    align-items: center;
+    height: 50px;
+}
+
+.nav-item {
+    color: white;
+    align-items: center;
+    margin: 5px;
+    font-weight: bold;
+    padding-left: 10px;
 }
 
 .main-background {
@@ -44,16 +64,16 @@ body {
     width: 150px;
 }
 
-.main-button a{
+.main-button a {
     text-decoration: none;
     font-size: 20px;
 }
 
-.main-button a:link{
+.main-button a:link {
     color: black
 }
 
-.main-button a:visited{
+.main-button a:visited {
     color: black
 }
 
@@ -90,7 +110,7 @@ body {
 
 .form-namebox {
     width: 48%;
-    display:inline-block;
+    display: inline-block;
 }
 
 .form-message-box {
